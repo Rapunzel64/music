@@ -1,0 +1,315 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 500vmin;
+    width: 100%;
+    background-color: antiquewhite;
+}
+.navbar {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2px;
+}
+.menu{
+    color: white;
+    font-size: 25px;
+    margin-left: 20px;
+}
+.angular{
+    color: white;
+    font-size: 25px;
+}
+.angular1 {
+    margin-left: 10px;
+}
+.angular2 {
+    margin-left: 10px;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    background-color:#423f3f ;
+    color: white;
+    border-radius: 50%;
+    margin-left: 40vmin;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search{
+    width: 450px;
+    height: 30px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    border: 2px solid #dbd9d9;
+    border-radius: 20px;
+    outline: none;
+}
+.search-input {
+    width: 90%;
+    height: 100%;
+    font-size: 16px;
+    margin-left: 5px;
+    outline: none;
+    border-top-left-radius: none;
+    border-bottom-left-radius: none;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px; 
+}
+.search-input::placeholder {
+    color: #0e0e0e; 
+}
+
+.search i {
+    width: 7%;
+    margin-left: 5px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.explore {
+    width: 200px;
+    height: 40px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#423f3f;
+    color: white;
+    border-radius: 20px;
+    cursor:pointer;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.lastcontent {
+    width: 300px;
+    height: 40px;
+    font-size: 25px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+.profile {
+    font-size: 20px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 8px solid #423f3f;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+.content1 {
+    width: 5%;
+    height: 100%;
+    background-color: lab(18.99% 2.26 0.82);
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    border: 2px solid ;
+}
+.section1_file {
+    width: 80%;
+    height: 60px;
+    margin-top: 40px;
+    margin-left: 8px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1_plus {
+    width: 80%;
+    height: 60px;
+    margin-top: 15px;
+    margin-left: 8px;
+    border-radius: 50%;
+    background-color:black;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1_like {
+    width: 80%;
+    height: 60px;
+    margin-top: 15px;
+    margin-left: 8px;
+    border-radius: 50%;
+    background-color:black;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1 {
+    width: 80%;
+    height: 60px;
+    margin-top: 15px;
+    margin-left: 8px;
+    border-radius: 50%;
+    background-color: hsl(0, 17%, 92%);
+    background-size:cover ;
+}
+.section1 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.sec_content{
+    width: 95%;
+    height: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    align-items:flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align: top;
+    border: 2px solid;
+    margin-left: 1px;
+}
+
+.content2 {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: lab(18.99% 2.26 0.82);
+}
+.section2 {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.all {
+    width: 5%;
+    height: 40%;
+    background-color:black;
+    color : white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 3px solid antiquewhite;
+    margin-left: 40px;
+}
+.music {
+    width: 8%;
+    height: 40%;
+    background-color: black;
+    color : white;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 3px solid antiquewhite;
+    margin-left: 10px;
+}
+.Podcasts {
+    width: 9%;
+    height: 40%;
+    background-color: black;
+    color : white;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    font-size: 20px;
+    border-radius: 20px;
+    border:3px solid antiquewhite;
+    margin-left: 10px;
+}
+.section3 {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    font-size: 20px;
+    color : white;
+    margin-top: 10px;
+}
+.daily_mix {
+    width: 30%;
+    height: 60%;
+    background-color: hwb(0 24% 72%);
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-left: 40px;
+}
+.daily_mix img {
+    width: 70px;
+    height: 95%;
+    float: left;
+    object-fit: cover;
+    margin-left: 1%; 
+    margin-right: 10px;  
+    background-color: black;
+}
+
+.like_songs {
+    width: 30%;
+    height: 60%;
+    background-color:hwb(0 24% 72%);
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-left: 30px;
+}
+
+.like_songs i {
+    margin-right: 10px;
+    margin-left: 20px;
+    display: flex;
+    align-items: flex-start;
+    font-size: 30px;
+}
+.content3 {
+    width: 100%;
+    height: 90%;
+    background-color: hsl(192, 77%, 26%);
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
+    text-align: end;
+}
