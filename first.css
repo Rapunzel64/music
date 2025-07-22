@@ -309,7 +309,620 @@ body{
     background-color: hsl(192, 77%, 26%);
     display: flex;
     align-items: flex-end;
-    justify-content: flex-end;
     flex-direction: column;
     text-align: end;
+}
+.for {
+    height: 5%;
+    width: 100%;
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.made {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    background-color: #f1f1a1;
+}
+
+.made1 {
+    width: 15%;
+    height: 95%;
+    background-color: #423f3f;
+    margin-left: 5px;
+    position: relative;
+}
+
+.background-img {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: 100%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.image {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.made1:hover .background-img {
+  opacity: 0.3;
+}
+
+.made1:hover .image {
+  opacity: 1;
+}
+.img {
+  height: 15%;
+  width: 15%;
+  border-radius: 50%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 16px 32px;
+}
+
+.text {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.text h3 {
+    position: absolute;
+    bottom: 10%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    font-size: 15px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.made1:hover h3 {
+    opacity: 1;
+    font-weight: 600;
+}
+.made2 {
+    width: 15%;
+    height: 95%;
+    position: relative;
+    background-color:#423f3f;
+    margin-left: 5px;
+}
+
+.background-img {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: 100%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.image {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.made2:hover .background-img {
+  opacity: 0.3;
+}
+.made2:hover .image {
+  opacity: 1;
+}
+.img {
+  height: 15%;
+  width: 15%;
+  border-radius: 50%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 16px 32px;
+}
+
+.text {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.text h3 {
+    position: absolute;
+    bottom: 10%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    font-size: 15px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.made2:hover h3 {
+    opacity: 1;
+    font-weight: 600;
+}
+.made3 {
+    width: 15%;
+    height: 95%;
+    position: relative;
+    background-color:#423f3f;
+    margin-left: 5px;
+}
+
+.background-img {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: 100%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.image {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.made3:hover .background-img {
+  opacity: 0.3;
+}
+.made3:hover .image {
+  opacity: 1;
+}
+.img {
+  height: 15%;
+  width: 15%;
+  border-radius: 50%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 16px 32px;
+}
+
+.text {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.text h3 {
+    position: absolute;
+    bottom: 10%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    font-size: 15px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.made3:hover h3 {
+    opacity: 1;
+    font-weight: 600;
+}
+.made4 {
+    width: 15%;
+    height: 95%;
+    position: relative;
+    background-color:#423f3f;
+    margin-left: 5px;
+}
+
+.background-img {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: 100%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.image {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.made4:hover .background-img {
+  opacity: 0.3;
+}
+.made4:hover .image {
+  opacity: 1;
+}
+.img {
+  height: 15%;
+  width: 15%;
+  border-radius: 50%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 16px 32px;
+}
+
+.text {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.text h3 {
+    position: absolute;
+    bottom: 10%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    font-size: 15px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.made4:hover h3 {
+    opacity: 1;
+    font-weight: 600;
+}
+.made5 {
+    width: 15%;
+    height: 95%;
+    position: relative;
+    background-color:#423f3f;
+    margin-left: 5px;
+}
+
+.background-img {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: 100%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.image {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.made5:hover .background-img {
+  opacity: 0.3;
+}
+.made5:hover .image {
+  opacity: 1;
+}
+.img {
+  height: 15%;
+  width: 15%;
+  border-radius: 50%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 16px 32px;
+}
+
+.text {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.text h3 {
+    position: absolute;
+    bottom: 10%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    font-size: 15px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.made5:hover h3 {
+    opacity: 1;
+    font-weight: 600;
+}
+.made6 {
+    width: 15%;
+    height: 95%;
+    position: relative;
+    background-color:#423f3f;
+    margin-left: 5px;
+}
+
+.background-img {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: 100%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.image {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.made6:hover .background-img {
+  opacity: 0.3;
+}
+.made6:hover .image {
+  opacity: 1;
+}
+.img {
+  height: 15%;
+  width: 15%;
+  border-radius: 50%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 16px 32px;
+}
+
+.text {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.text h3 {
+    position: absolute;
+    bottom: 10%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    font-size: 15px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.made6:hover h3 {
+    opacity: 1;
+    font-weight: 600;
+}
+.made7{
+    width: 15%;
+    height: 95%;
+    position: relative;
+    background-color:#423f3f;
+    margin-left: 5px;
+}
+
+.background-img {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: 100%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.image {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.made7:hover .background-img {
+  opacity: 0.3;
+}
+.made7:hover .image {
+  opacity: 1;
+}
+.img {
+  height: 15%;
+  width: 15%;
+  border-radius: 50%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 16px 32px;
+}
+
+.text {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.text h3 {
+    position: absolute;
+    bottom: 10%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    font-size: 15px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.made7:hover h3 {
+    opacity: 1;
+    font-weight: 600;
+}
+.made8 {
+    width: 15%;
+    height: 95%;
+    position: relative;
+    background-color:#423f3f;
+    margin-left: 5px;
+}
+
+.background-img {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: 100%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.image {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.made8:hover .background-img {
+  opacity: 0.3;
+}
+.made8:hover .image {
+  opacity: 1;
+}
+.img {
+  height: 15%;
+  width: 15%;
+  border-radius: 50%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 16px 32px;
+}
+
+.text {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.text h3 {
+    position: absolute;
+    bottom: 10%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    font-size: 15px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.made8:hover h3 {
+    opacity: 1;
+    font-weight: 600;
+}
+.made9 {
+    width: 15%;
+    height: 95%;
+    position: relative;
+    background-color:#423f3f;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.background-img {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: 100%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.image {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.made9:hover .background-img {
+  opacity: 0.3;
+}
+.made9:hover .image {
+  opacity: 1;
+}
+.img {
+  height: 15%;
+  width: 15%;
+  border-radius: 50%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 16px 32px;
+}
+
+.text {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.text h3 {
+    position: absolute;
+    bottom: 10%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    font-size: 15px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.made9:hover h3 {
+    opacity: 1;
+    font-weight: 600;
 }
