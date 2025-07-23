@@ -328,7 +328,7 @@ body{
 
 .made {
     width: 100%;
-    height: 20%;
+    height: 30%;
     display: flex;
     align-items: center;
     border-radius: 20px;
@@ -954,7 +954,7 @@ body{
     height: 50%;
     background-color:hsl(0, 25%, 98%);
     position: relative;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .popular {
@@ -973,7 +973,7 @@ body{
 
 .popular_song {
     width: 100%;
-    height: 60%;
+    height: 85%;
     display: flex;
     align-items: center;
     background-color:hsl(0, 17%, 98%);
@@ -1782,3 +1782,145 @@ body{
     color: black;
 }
 
+.content5 {
+    width: 100%;
+    height: 50%;
+    background-color:hsl(0, 44%, 39%);
+    position: relative;
+    margin-top: 10px;
+}
+
+.you_follow {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:black;
+  color: white;
+  font-size: 30px;
+  margin-top: 5px;
+  font-weight: 800;
+  border-radius: 30px;
+}
+
+.follow {
+  width: 100%;
+  height:83%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color:hsl(0, 17%, 98%);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+
+.follow .background-img {
+  opacity: 1;
+  display: block;
+  width: 95%;
+  height: 80%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  border-radius: 20px;
+  border: 2px solid black;
+  margin-left: 4px;
+  margin-top: 4px;
+}
+
+.follow .image {
+  transition: .5s ease;
+  opacity: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.follow .img {
+  height: 50%;
+  width: 50%;
+  border-radius: 50%;
+}
+
+.follow h3 {
+  position: absolute;
+  bottom: 0;
+  left:2%;
+  color: white;
+  font-size: 20px;
+}
+
+.follow p {
+  position: absolute;
+  bottom: 0;
+  left:50%;
+  color: white;
+  font-size: 20px;
+}
+
+.follow1 {
+  width: 18%;
+  height: 95%;
+  background-color: #8f8f12;
+  margin-left: 3px;
+  position: relative;
+  border-radius: 10px;
+}
+.follow1:hover .image{
+  opacity: 1;
+  height: 50%;
+  width: 50%;
+}
+
+.follow1:hover .background-img {
+  opacity: 0.3;
+}
+.follow2 {
+  width: 18%;
+  height: 95%;
+  background-color: #8f8f12;
+  margin-left: 3px;
+  position: relative;
+  border-radius: 10px;
+}
+
+.follow3 {
+  width: 18%;
+  height: 95%;
+  background-color: #8f8f12;
+  margin-left: 3px;
+  position: relative;
+  border-radius: 10px;
+}
+
+.follow4 {
+  width: 18%;
+  height: 95%;
+  background-color: #8f8f12;
+  margin-left: 3px;
+  position: relative;
+  border-radius: 10px;
+}
+
+.follow5 {
+  width: 18%;
+  height: 95%;
+  background-color: #8f8f12;
+  margin-left: 3px;
+  position: relative;
+  border-radius: 10px;
+}
+
+.follow6 {
+  width: 18%;
+  height: 95%;
+  background-color: #8f8f12;
+  margin-left: 3px;
+  position: relative;
+  border-radius: 10px;
+}
