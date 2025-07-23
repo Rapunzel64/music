@@ -3,7 +3,8 @@ body{
     padding: 0;
     height: 500vmin;
     width: 100%;
-    background-color: antiquewhite;
+    background-color:#423f3f;
+    display: block;
 }
 .navbar {
     width: 100%;
@@ -306,20 +307,23 @@ body{
 .content3 {
     width: 100%;
     height: 90%;
-    background-color: hsl(192, 77%, 26%);
     display: flex;
     align-items: flex-end;
     flex-direction: column;
     text-align: end;
+    background-color: hwb(0 98% 2%);
 }
 .for {
-    height: 5%;
+    height: 8%;
     width: 100%;
     font-size: 25px;
     background-color: black;
-    color: white;
+    color:white;
     display: flex;
     align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    border-radius: 30px;
 }
 
 .made {
@@ -327,15 +331,16 @@ body{
     height: 20%;
     display: flex;
     align-items: center;
-    background-color: #f1f1a1;
+    border-radius: 20px;
 }
 
 .made1 {
     width: 15%;
     height: 95%;
-    background-color: #423f3f;
     margin-left: 5px;
     position: relative;
+    background-color:#423f3f;
+    border-radius: 10px;
 }
 
 .background-img {
@@ -345,6 +350,7 @@ body{
   height: 100%;
   transition: .5s ease;
   backface-visibility: hidden;
+  border-radius: 10px;
 }
 
 .image {
@@ -403,15 +409,17 @@ body{
     position: relative;
     background-color:#423f3f;
     margin-left: 5px;
+    border-radius: 10px;
 }
 
-.background-img {
+.made2 .background-img {
   opacity: 1;
   display: block;
   width: 100%;
   height: 100%;
   transition: .5s ease;
   backface-visibility: hidden;
+  border-radius: 10px;
 }
 
 .image {
@@ -469,6 +477,7 @@ body{
     position: relative;
     background-color:#423f3f;
     margin-left: 5px;
+    border-radius: 10px;
 }
 
 .background-img {
@@ -478,6 +487,7 @@ body{
   height: 100%;
   transition: .5s ease;
   backface-visibility: hidden;
+  border-radius: 10px;
 }
 
 .image {
@@ -535,6 +545,7 @@ body{
     position: relative;
     background-color:#423f3f;
     margin-left: 5px;
+    border-radius: 10px;
 }
 
 .background-img {
@@ -544,6 +555,7 @@ body{
   height: 100%;
   transition: .5s ease;
   backface-visibility: hidden;
+  border-radius: 10px;
 }
 
 .image {
@@ -601,6 +613,7 @@ body{
     position: relative;
     background-color:#423f3f;
     margin-left: 5px;
+    border-radius: 10px;
 }
 
 .background-img {
@@ -610,6 +623,7 @@ body{
   height: 100%;
   transition: .5s ease;
   backface-visibility: hidden;
+  border-radius: 10px;
 }
 
 .image {
@@ -667,6 +681,7 @@ body{
     position: relative;
     background-color:#423f3f;
     margin-left: 5px;
+    border-radius: 10px;
 }
 
 .background-img {
@@ -676,6 +691,7 @@ body{
   height: 100%;
   transition: .5s ease;
   backface-visibility: hidden;
+  border-radius: 10px;
 }
 
 .image {
@@ -733,6 +749,7 @@ body{
     position: relative;
     background-color:#423f3f;
     margin-left: 5px;
+    border-radius: 10px;
 }
 
 .background-img {
@@ -742,6 +759,7 @@ body{
   height: 100%;
   transition: .5s ease;
   backface-visibility: hidden;
+  border-radius: 10px;
 }
 
 .image {
@@ -799,6 +817,7 @@ body{
     position: relative;
     background-color:#423f3f;
     margin-left: 5px;
+    border-radius: 10px;
 }
 
 .background-img {
@@ -808,6 +827,7 @@ body{
   height: 100%;
   transition: .5s ease;
   backface-visibility: hidden;
+  border-radius: 10px;
 }
 
 .image {
@@ -866,6 +886,7 @@ body{
     background-color:#423f3f;
     margin-left: 5px;
     margin-right: 5px;
+    border-radius: 10px;
 }
 
 .background-img {
@@ -875,6 +896,7 @@ body{
   height: 100%;
   transition: .5s ease;
   backface-visibility: hidden;
+  border-radius: 10px;
 }
 
 .image {
@@ -926,3 +948,837 @@ body{
     opacity: 1;
     font-weight: 600;
 }
+
+.content4 {
+    width: 100%;
+    height: 50%;
+    background-color:hsl(0, 25%, 98%);
+    position: relative;
+    margin-top: 10px;
+}
+
+.popular {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:black;
+    color: white;
+    font-size: 30px;
+    margin-top: 5px;
+    font-weight: 800;
+    border-radius: 30px;
+}
+
+.popular_song {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    background-color:hsl(0, 17%, 98%);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.popular1 {
+    width: 16%;
+    height: 95%;
+    background-color: #8f8f12;
+    margin-left: 5px;
+    position: relative;
+}
+
+.popular1:hover {
+  transition: 0.5s ease-in;
+  border-radius: 20px;
+  box-shadow: 0 8px 10px #cae86a;
+}
+.popular1 .background-img {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: 60%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.popular1 .image {
+  transition: .5s ease;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.popular1:hover .background-img {
+  opacity: 0.3;
+}
+
+.popular1:hover .image {
+  opacity: 1;
+}
+.popular1 .img {
+  height: 20%;
+  width: 20%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.text {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.text h3 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.popular1:hover  h3{
+    opacity: 1;
+    font-weight: 600;
+}
+
+.lines {
+    width: 100%;
+    height: 5%;
+    font-size:18px ;
+    text-align: center;
+    color: white;
+}
+
+.popular1:hover .lines {
+    opacity: 1;
+    font-weight: 700;
+    color: black;
+}
+
+.popular2 {
+    width: 16%;
+    height: 95%;
+    background-color: hsl(36, 78%, 32%);
+    margin-left: 5px;
+    position: relative;
+}
+
+.popular2:hover {
+  transition: 0.5s ease-in;
+  border-radius: 20px;
+  box-shadow: 0 8px 10px hsl(36, 78%, 32%);
+}
+.popular2 .background-img {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: 60%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.image {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.popular2:hover .background-img {
+  opacity: 0.3;
+}
+
+.popular2:hover .image {
+  opacity: 1;
+}
+.img {
+  height: 20%;
+  width: 20%;
+  border-radius: 50%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 16px 32px;
+}
+
+.text {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.popular2 .text h3 {
+    position: absolute;
+    bottom: 10%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.popular2:hover  h3{
+    opacity: 1;
+    font-weight: 600;
+}
+
+.lines {
+    width: 100%;
+    height: 5%;
+    font-size:18px;
+    text-align: center;
+    color: white;
+}
+
+.popular2:hover .lines {
+    opacity: 1;
+    font-weight: 700;
+    color: black;
+}
+
+.popular3 {
+    width: 16%;
+    height: 95%;
+    background-color: #0970b6;
+    margin-left: 5px;
+    position: relative;
+}
+
+.popular3:hover {
+  transition: 0.5s ease-in;
+  border-radius: 20px;
+  box-shadow: 0 8px 10px #0970b6;
+}
+.popular3 .background-img {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: 60%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.popular3 .image {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.popular3:hover .background-img {
+  opacity: 0.3;
+}
+
+.popular3:hover .image {
+  opacity: 1;
+}
+.img {
+  height: 20%;
+  width: 20%;
+  border-radius: 50%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 16px 32px;
+}
+
+.text {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.text h3 {
+    position: absolute;
+    bottom: 10%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.popular3:hover  h3{
+    opacity: 1;
+    font-weight: 600;
+}
+
+.lines {
+    width: 100%;
+    height: 5%;
+    font-size:18px ;
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+}
+
+.popular3:hover .lines {
+    opacity: 1;
+    font-weight: 700;
+    color: black;
+}
+
+.popular4 {
+    width: 16%;
+    height: 95%;
+    background-color: #c2182e;
+    margin-left: 5px;
+    position: relative;
+}
+
+.popular4:hover {
+  transition: 0.5s ease-in;
+  border-radius: 20px;
+  box-shadow: 0 8px 10px #c2182e;
+}
+.popular4 .background-img {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: 60%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.popular4 .image {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.popular4:hover .background-img {
+  opacity: 0.3;
+}
+
+.popular4:hover .image {
+  opacity: 1;
+}
+.img {
+  height: 20%;
+  width: 20%;
+  border-radius: 50%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 16px 32px;
+}
+
+.text {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.text h3 {
+    position: absolute;
+    bottom: 10%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.popular4:hover  h3{
+    opacity: 1;
+    font-weight: 600;
+}
+
+.lines {
+    width: 100%;
+    height: 5%;
+    font-size:18px ;
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+}
+
+.popular4:hover .lines {
+    opacity: 1;
+    font-weight: 700;
+    color: black;
+}
+
+.popular5 {
+    width: 16%;
+    height: 95%;
+    background-color:hsl(120, 45%, 65%);
+    margin-left: 5px;
+    position: relative;
+}
+
+.popular5:hover {
+  transition: 0.5s ease-in;
+  border-radius: 20px;
+  box-shadow: 0 8px 10px hsl(120, 45%, 65%);
+}
+.popular5 .background-img {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: 60%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.popular5 .image {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.popular5:hover .background-img {
+  opacity: 0.3;
+}
+
+.popular5:hover .image {
+  opacity: 1;
+}
+.img {
+  height: 20%;
+  width: 20%;
+  border-radius: 50%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 16px 32px;
+}
+
+.text {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.text h3 {
+    position: absolute;
+    bottom: 10%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.popular5:hover  h3{
+    opacity: 1;
+    font-weight: 600;
+}
+
+.lines {
+    width: 100%;
+    height: 5%;
+    font-size:18px ;
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+}
+
+.popular5:hover .lines {
+    opacity: 1;
+    font-weight: 700;
+    color: black;
+}
+
+.popular6 {
+    width: 16%;
+    height: 95%;
+    background-color: #7b16cd;
+    margin-left: 5px;
+    position: relative;
+}
+
+.popular6:hover {
+  transition: 0.5s ease-in;
+  border-radius: 20px;
+  box-shadow: 0 8px 10px #7b16cd;
+}
+.popular6 .background-img {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: 60%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.popular6 .image {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.popular6:hover .background-img {
+  opacity: 0.3;
+}
+
+.popular6:hover .image {
+  opacity: 1;
+}
+.img {
+  height: 20%;
+  width: 20%;
+  border-radius: 50%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 16px 32px;
+}
+
+.text {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.text h3 {
+    position: absolute;
+    bottom: 10%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.popular6:hover  h3{
+    opacity: 1;
+    font-weight: 600;
+}
+
+.lines {
+    width: 100%;
+    height: 5%;
+    font-size:18px ;
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+}
+
+.popular6:hover .lines {
+    opacity: 1;
+    font-weight: 700;
+    color: black;
+}
+
+.popular7 {
+    width: 16%;
+    height: 95%;
+    background-color: hwb(315 8% 46%);
+    margin-left: 5px;
+    position: relative;
+}
+
+.popular7:hover {
+  transition: 0.5s ease-in;
+  border-radius: 20px;
+  box-shadow: 0 8px 10px hwb(315 8% 46%);
+}
+.popular7 .background-img {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: 60%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.popular7 .image {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.popular7:hover .background-img {
+  opacity: 0.3;
+}
+
+.popular7:hover .image {
+  opacity: 1;
+}
+.img {
+  height: 20%;
+  width: 20%;
+  border-radius: 50%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 16px 32px;
+}
+
+.text {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.text h3 {
+    position: absolute;
+    bottom: 10%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.popular7:hover  h3{
+    opacity: 1;
+    font-weight: 600;
+}
+
+.lines {
+    width: 100%;
+    height: 5%;
+    font-size:18px ;
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+}
+
+.popular7:hover .lines {
+    opacity: 1;
+    font-weight: 700;
+    color: black;
+}
+
+.popular8 {
+    width: 16%;
+    height: 95%;
+    background-color: hwb(177 11% 49%);
+    margin-left: 5px;
+    position: relative;
+}
+
+.popular8:hover {
+  transition: 0.5s ease-in;
+  border-radius: 20px;
+  box-shadow: 0 8px 10px hwb(177 11% 49%);
+}
+.popular8 .background-img {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: 60%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.popular8 .image {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.popular8:hover .background-img {
+  opacity: 0.3;
+}
+
+.popular8:hover .image {
+  opacity: 1;
+}
+.img {
+  height: 20%;
+  width: 20%;
+  border-radius: 50%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 16px 32px;
+}
+
+.text {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.text h3 {
+    position: absolute;
+    bottom: 10%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.popular8:hover  h3{
+    opacity: 1;
+    font-weight: 600;
+}
+
+.lines {
+    width: 100%;
+    height: 5%;
+    font-size:18px ;
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+}
+
+.popular8:hover .lines {
+    opacity: 1;
+    font-weight: 700;
+    color: black;
+}
+
+.popular9 {
+    width: 16%;
+    height: 95%;
+    background-color: #8f8f12;
+    margin-left: 5px;
+    margin-right: 5px;
+    position: relative;
+}
+
+.popular9:hover {
+  transition: 0.5s ease-in;
+  border-radius: 20px;
+  box-shadow: 0 8px 10px #8f8f12;
+}
+
+.popular9 .background-img {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: 60%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.popular9 .image {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.popular9:hover .background-img {
+  opacity: 0.3;
+}
+
+.popular9:hover .image {
+  opacity: 1;
+}
+.img {
+  height: 20%;
+  width: 20%;
+  border-radius: 50%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 16px 32px;
+}
+
+.text {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.text h3 {
+    position: absolute;
+    bottom: 10%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.popular9:hover  h3{
+    opacity: 1;
+    font-weight: 600;
+}
+
+.lines {
+    width: 100%;
+    height: 5%;
+    font-size:18px ;
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+}
+
+.popular9:hover .lines {
+    opacity: 1;
+    font-weight: 700;
+    color: black;
+}
+
